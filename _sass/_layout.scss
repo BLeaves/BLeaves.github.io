@@ -34,7 +34,36 @@ body.sticky-bottom-footer {
 // Profile
 .profile {
   img {
-    width: 100%;
+    width: 70%; // 减小图片宽度到70%
+    max-width: 200px; // 限制最大宽度为200px
+    margin: 0 auto;
+    display: block;
+  }
+
+  .profile-social {
+    margin-top: 1rem;
+    text-align: center;
+    width: 70%; // 与图片宽度保持一致
+    max-width: 200px; // 与图片最大宽度保持一致
+    margin: 1rem auto 0; // 上方间距1rem，左右居中
+
+    .contact-icons {
+      display: flex;
+      justify-content: space-between; // 图标之间均匀分布
+
+      a {
+        font-size: 1.5rem; // 增大图标尺寸
+
+        i {
+          font-size: inherit;
+        }
+      }
+    }
+
+    .contact-note {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+    }
   }
 }
 
