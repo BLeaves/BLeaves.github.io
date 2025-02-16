@@ -77,8 +77,8 @@
           {% if forloop.first == false %},&nbsp;{% endif %}
           {%- if forloop.last %}and&nbsp;{% endif -%}
         {% endif %}
-
-        {%- if author.first == "Yixin" and author.last == "Ye" -%}
+        
+        {%- if author.first == "Yixin" and author.last == "Ye" or author.first == "Yixin" and author.last == "Ye*" -%}
           <strong>{{- author.first }} {{ author_last_html -}}</strong>
         {%- elsif author_is_self -%}
           <em>{{- author.first }} {{ author_last_html -}}</em>
