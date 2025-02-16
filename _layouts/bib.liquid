@@ -48,24 +48,20 @@
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
+    
     <!-- Author -->
     <div class="author">
-      {% assign author_array_size = entry.author_array | size %}
-
-      {% assign author_array_limit = author_array_size %}
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
-        {% assign author_array_limit = site.max_author_limit %}
-      {% endif %}
-
-      {%- for author in entry.author_array limit: author_array_limit -%}
+      {%- for author in entry.author_array -%}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
+        
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
         {% if site.data.coauthors[clean_last_name] %}
@@ -79,68 +75,28 @@
 
         {%- if forloop.length > 1 -%}
           {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
+          {%- if forloop.last %}and&nbsp;{% endif -%}
         {% endif %}
-        {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </em>
+
+        {%- if author.first == "Yixin" and author.last == "Ye" -%}
+          <strong>{{- author.first }} {{ author_last_html -}}</strong>
+        {%- elsif author_is_self -%}
+          <em>{{- author.first }} {{ author_last_html -}}</em>
         {%- else -%}
           {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
-            </a>
+            <a href="{{ coauthor_url }}">{{- author.first }} {{ author_last_html -}}</a>
           {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
-          {% endif %}
+            {{- author.first }} {{ author_last_html -}}
+          {%- endif -%}
         {%- endif -%}
       {% endfor %}
-      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
-      {%- assign more_authors_hide = more_authors | append: ' more author' -%}
-      {% if more_authors > 0 %}
-        {%- if more_authors > 1 -%}
-          {% assign more_authors_hide = more_authors_hide | append: 's' %}
-        {%- endif -%}
-        {% assign more_authors_show = '' %}
-        {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
-          {% unless forloop.last %}
-            {% assign more_authors_show = more_authors_show | append: ', ' %}
-          {% endunless %}
-        {%- endfor -%}
-        {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        , and
-        <span
-          class="more-authors"
-          title="click to view {{ more_authors_hide }}"
-          onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.html(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '{{ site.more_authors_animation_delay }}');
-          "
-        >
-          {{- more_authors_hide -}}
-        </span>
-      {% endif %}
       {% if entry.annotation %}
-        <i
-          class="fa-solid fa-circle-info ml-1"
+        <i class="fa-solid fa-circle-info ml-1"
           data-toggle="popover"
           data-placement="top"
           data-html="true"
-          data-content="{{ entry.annotation | escape }}"
-        >
+          data-content="{{ entry.annotation | escape }}">
         </i>
       {% endif %}
     </div>
@@ -230,9 +186,7 @@
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
-      {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
-      {% endif %}
+      
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
           <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
@@ -250,8 +204,21 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+
+      {% if entry.code %}
+        {% assign github_url = entry.code %}
+        {% if github_url contains 'github.com' %}
+          {% assign repo_path = github_url | split: 'github.com/' | last %}
+          <a href="{{ entry.code }}"  style="padding: 0;">
+            <img src="https://img.shields.io/github/stars/{{ repo_path }}?style=social" alt="GitHub stars" >
+          </a>
+        {% else %}
+          <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        {% endif %}
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
+    
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
         {% assign entry_has_altmetric_badge = true %}
