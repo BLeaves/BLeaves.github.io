@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-02-10 01:43
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+We released a <a href="https://t.co/Bp4CEXbu43">real-time benchmark</a> for math reasoning models on AIME 2025!
