@@ -30,7 +30,9 @@ misc: In my free time, I enjoy indie rock music, cooking, amateur long-distance 
 
 I'm a third year undergraduate student from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), advised by [Prof.Pengfei Liu](https://pfliu.com/) at [GAlR Lab](https://plms.ai/). Previously, I was an undergraduate researcher advised by [Prof.Dequan Wang](https://dequan.wang/).
 
-My research interests mainly lie in natural language processing, large language model reasoning, and fundamental research of large lan‐ guage models. I am now focusing on enhancing LLMs’ reasoning capabilities through innovative approaches. I also have a background in evaluation of large language models, multimodal learning and alignment in multimodal systems.
+My research interests mainly lie in **natural language processing**, **complex reasoning**, and **fundamental research of LLMs**. I am now focusing on enhancing LLMs' reasoning capabilities through innovative approaches. 
+
+I have experience in developing and training large language models, with a focus on pretraining and fine-tuning techniques. My background also includes work on multimodal learning systems and addressing alignment challenges in multimodal AI architectures.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
