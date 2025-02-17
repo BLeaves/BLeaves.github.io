@@ -324,16 +324,11 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-we-released-a-real-time-benchmark-for-math-reasoning-models-on-aime-2025",
+          title: 'We released a real-time benchmark for math reasoning models on AIME 2025!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-we-are-honored-to-have-been-invited-to-present-a-talk-about-limo-at-synced-机器之心",
+          title: 'We are honored to have been invited to present a talk about LIMO...',
           description: "",
           section: "News",},{id: "projects-project-2",
           title: 'project 2',
