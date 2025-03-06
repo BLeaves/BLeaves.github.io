@@ -21,7 +21,7 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-misc: In my free time, I enjoy indie rock music 🎸, cooking 🍳, amateur long-distance running 🏃‍♀️, and traditional strength training 🏋️.
+misc: In my free time, I enjoy indie rock music 🎸, traditional strength training 🏋️ and amateur long-distance running 🏃‍♀️.
 # latest_posts:
 #   enabled: true
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
