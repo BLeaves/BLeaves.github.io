@@ -28,7 +28,7 @@ misc: In my free time, I enjoy indie rock music 🎸, traditional strength train
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a junior undergraduate student from <strong>Shanghai Jiao Tong University</strong><img src="https://upload.wikimedia.org/wikipedia/en/d/da/Sjtu-logo-standard-red.png" alt="SJTU Logo" style="height:1.2em;margin-left:0.5em;">, advised by [Prof.Pengfei Liu](https://pfliu.com/) at GAIR Lab. 
+I'm a junior undergraduate student from <strong>Shanghai Jiao Tong University</strong><img src="https://upload.wikimedia.org/wikipedia/en/d/da/Sjtu-logo-standard-red.png" alt="SJTU Logo" style="height:1.2em;margin-left:0.3em;margin-right:0.3em;">, advised by [Prof.Pengfei Liu](https://pfliu.com/) at GAIR Lab. 
 Currently, I am a visiting research intern at <strong>Stanford University</strong><img src="https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/block-s-right.png" alt="Stanford Emblem" style="height:1.5em;">, working with [Prof. Diyi Yang](https://cs.stanford.edu/~diyiy/).
 Previously, I was an undergraduate researcher advised by [Prof.Dequan Wang](https://dequan.wang/).
 
