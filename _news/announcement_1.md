@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2025-02-10 01:43
+date: 2024-09-06 19:00
 inline: true
 related_posts: false
 ---
 
-We released a <a href="https://t.co/Bp4CEXbu43">real-time benchmark</a> for math reasoning models on AIME 2025!
+Awarded by [Undergraduate Honors Scholarship](https://www.cs.sjtu.edu.cn/NewNoticeDetail.aspx?id=611). Top 1 undergraduate student(1/300+) among my school.
+
