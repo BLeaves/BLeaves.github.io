@@ -28,11 +28,11 @@ misc: In my free time, I enjoy indie rock music 🎸, traditional strength train
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a third year undergraduate student from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), advised by [Prof.Pengfei Liu](https://pfliu.com/) at [GAlR Lab](https://plms.ai/). Previously, I was an undergraduate researcher advised by [Prof.Dequan Wang](https://dequan.wang/).
+I'm a third year undergraduate student from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), advised by [Prof.Pengfei Liu](https://pfliu.com/) at [GAlR Lab](https://plms.ai/). 
+Currently, I am a research intern at [Stanford University](https://www.stanford.edu/), working with [Prof. Diyi Yang](https://cs.stanford.edu/~diyiy/).
+Previously, I was an undergraduate researcher advised by [Prof.Dequan Wang](https://dequan.wang/).
 
-My research interests mainly lie in **natural language processing**, **complex reasoning**, and **fundamental research of LLMs**. I am now focusing on enhancing LLMs' reasoning capabilities through innovative approaches. 
-
-I have experience in developing and training large language models, with a focus on pretraining and fine-tuning techniques. My background also includes work on multimodal learning systems and addressing alignment challenges in multimodal AI architectures.
+My research interests mainly lie in **natural language processing**, **complex reasoning**, and **understanding LLMs**.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
