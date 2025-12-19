@@ -1,0 +1,43 @@
+---
+layout: about
+title: about
+permalink: /
+subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+misc: In my free time, I enjoy indie rock music 🎸, traditional strength training 🏋️ and amateur long-distance running 🏃‍♀️.
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
+---
+
+I'm a junior undergraduate student from <strong>Shanghai Jiao Tong University</strong><img src="https://upload.wikimedia.org/wikipedia/en/d/da/Sjtu-logo-standard-red.png" alt="SJTU Logo" style="height:1.2em;margin-left:0.3em;margin-right:0.3em;">, advised by [Prof.Pengfei Liu](https://pfliu.com/) at GAIR Lab. 
+Currently, I am a visiting research intern at <strong>Stanford University</strong><img src="https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/block-s-right.png" alt="Stanford Emblem" style="height:1.5em;">, working with [Prof. Diyi Yang](https://cs.stanford.edu/~diyiy/).
+Previously, I was an undergraduate researcher advised by [Prof.Dequan Wang](https://dequan.wang/).
+
+My research interests mainly lie in **natural language processing**, **complex reasoning**, and **understanding LLMs**. I have experience in pretraining and fine-tuning large language models. My background also includes work on multimodal systems.
+
+Please feel free to contact me 👋
+
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [papers page](/al-folio/papers/) automatically.
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->

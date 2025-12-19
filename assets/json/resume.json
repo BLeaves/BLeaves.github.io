@@ -1,0 +1,112 @@
+{
+  "basics": {
+    "name": "Yixin Ye",
+    "label": "Software Engineering Student",
+    "email": "chlorophyll2020@sjtu.edu.com",
+    "url": "bleaves.github.io",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "bleaves",
+        "url": "https://github.com/bleaves"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Shanghai Jiao Tong University, SEIEE",
+      "location": "Shanghai, China",
+      "area": "Software Engineering",
+      "studyType": "B.Eng.",
+      "startDate": "2022-09-01",
+      "endDate": "Present"
+    }
+  ],
+  "work": [
+    {
+      "name": "Shanghai Jiao Tong University - Generative Artificial Intelligence Research Lab",
+      "position": "Undergraduate Research Intern",
+      "location": "Shanghai, China",
+      "startDate": "2024-03-01",
+      "endDate": "Present",
+      "summary": "Supervisor: Prof. Pengfei Liu"
+    },
+    {
+      "name": "Shanghai Jiao Tong University - Dequan Wang's Group",
+      "position": "Undergraduate Research Intern",
+      "location": "Shanghai, China",
+      "startDate": "2023-07-01",
+      "endDate": "2024-01-01",
+      "summary": "Supervisor: Prof. Dequan Wang"
+    }
+  ],
+  "papers": [
+    {
+      "name": "LIMO: Less is More for Reasoning",
+      "authors": "Yixin Ye*, Zhen Huang*, Yang Xiao, Ethan Chern, Shijie Xia, Pengfei Liu",
+      "publisher": "COLM",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2502.03387"
+    },
+    {
+      "name": "O1 Replication Journey: A Strategic Progress Report--Part 1",
+      "authors": "Yiwei Qin*, Xuefeng Li*, Haoyang Zou*, Yixiu Liu*, Shijie Xia*, Zhen Huang, Yixin Ye, Weizhe Yuan, Hector Liu, Yuanzhi Li, Pengfei Liu",
+      "publisher": "Preprint",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2410.18982"
+    },
+    {
+      "name": "OlympicArena: Benchmarking Multi-discipline Cognitive Reasoning for Superintelligent AI",
+      "publisher": "NeurIPS",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2406.12753"
+    },
+    {
+      "name": "Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions",
+      "publisher": "ECCV",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2408.01091"
+    },
+    {
+      "name": "Lost in Translation: Latent Concept Misalignment in Text-to-Image Diffusion Models",
+      "publisher": "ECCV",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2408.00230"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Undergraduate Honors Scholarship",
+      "date": "2024",
+      "awarder": "School of Software Engineering, SJTU",
+      "summary": "Award for the top student (1/300+) among all undergraduates in School of Software Engineering"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "C/C++",
+        "JavaScript",
+        "Java",
+        "Linux",
+        "LaTeX",
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": [
+        "Natural Language Processing",
+        "Large Language Model Reasoning",
+        "Fundamental Research of Large Language Models",
+        "Multimodal Learning",
+        "Alignment in Multimodal Systems"
+      ]
+    }
+  ]
+}
