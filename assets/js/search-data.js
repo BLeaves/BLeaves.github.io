@@ -156,7 +156,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2023/jupyter-notebook/";
+          window.location.href = "/blog/2023/jupyter-notebook.md/";
         
       },
     },{id: "post-a-post-with-custom-blockquotes",
