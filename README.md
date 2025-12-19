@@ -234,7 +234,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Light/Dark Mode](#lightdark-mode)
     - [CV](#cv)
     - [People](#people)
-    - [Publications](#papers)
+    - [papers](#papers)
     - [Collections](#collections)
     - [Layouts](#layouts)
       - [The iconic style of Distill](#the-iconic-style-of-distill)
@@ -297,13 +297,13 @@ You can create a people page if you want to feature more than one person. Each p
 
 ---
 
-### Publications
+### papers
 
 Your papers' page is generated automatically from your BibTex bibliography. Simply edit [\_bibliography/papers.bib](_bibliography/papers.bib). You can also add new `*.bib` files and customize the look of your papers however you like by editing [\_pages/papers.md](_pages/papers.md). By default, the papers will be sorted by year and the most recent will be displayed first. You can change this behavior and more in the `Jekyll Scholar` section in [\_config.yml](_config.yml) file.
 
 You can add extra information to a publication, like a PDF file in the [assets/pdf/](assets/pdf/) directory and add the path to the PDF file in the BibTeX entry with the `pdf` field. Some of the supported fields are: `abstract`, `altmetric`, `arxiv`, `bibtex_show`, `blog`, `code`, `dimensions`, `doi`, `eprint`, `html`, `isbn`, `pdf`, `pmid`, `poster`, `slides`, `supp`, `video`, and `website`.
 
-[![Publications Preview](readme_preview/papers.png)](https://alshedivat.github.io/al-folio/papers/)
+[![papers Preview](readme_preview/papers.png)](https://alshedivat.github.io/al-folio/papers/)
 
 ---
 
