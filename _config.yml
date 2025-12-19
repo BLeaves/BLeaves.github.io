@@ -202,9 +202,9 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  # - jekyll-jupyter-notebook  # 暂时禁用，因为 Jupyter nbconvert 找不到 'lab' 模板
   - jekyll-link-attributes
-  - jekyll-minifier
+  # - jekyll-minifier  # 暂时禁用，避免文件写入错误
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll/scholar
