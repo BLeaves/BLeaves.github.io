@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-06-08 19:00
+date: 2025-08-21 19:00
 inline: true
 related_posts: false
 ---
 
-Awarded by [Sensetime Scholarship](https://www.sensetime.com/cn/scholarship). 30 undergraduate students nationwide.
+Presented a talk about <a href="https://realtimegym.saltlab.stanford.edu/">Real-Time Reasoning</a> at Stanford NLP Lunch.
