@@ -191,6 +191,9 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - assets/jupyter/  # Exclude Jupyter notebooks since plugin is disabled
+  - "**/*.disabled"  # Exclude all .disabled files (e.g., disabled posts)
+  - _posts/*.disabled  # Explicitly exclude disabled posts
 keep_files:
   - CNAME
   - .nojekyll
@@ -228,10 +231,10 @@ sass:
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
-
-jekyll-minifier:
-  compress_javascript: false # set to false since we are using terser as the js minifier
-  # exclude: ["robots.txt", "assets/js/search/*.js"]
+# Plugin is disabled - configuration commented out
+# jekyll-minifier:
+#   compress_javascript: false # set to false since we are using terser as the js minifier
+#   # exclude: ["robots.txt", "assets/js/search/*.js"]
 
 # -----------------------------------------------------------------------------
 # Terser
